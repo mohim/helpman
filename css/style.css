@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header_wrapper {
+  width: 100%;
+  min-height: auto;
+  background-color: #6DF3F2;
+}
+
+.header {
+  width: 85%;
+  margin: 0 auto;
+  min-height: auto;
+}
+
+.header_wrapper .header .style_nav {
+  background-color: #6DF3F2;
+  border: 0px solid;
+}
+
+.header_wrapper .header .style_nav li a {
+  color: white;
+  margin-left: -8px;
+}
+
+.logo_form_wrapper {
+  width: 100%;
+  min-height: 80px;
+  background-color: #FFFFFF;
+  margin-top: -20px;
+}
+
+.logo_form {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 33%;
+  float: left;
+}
+
+.email_us {
+  width: 50%;
+  min-height: 40px;
+  float: left;
+}
+
+.envelope i {
+  border: 2px solid #FDB52B;
+  padding: 10px 12px;
+  color: #FDB52B;
+}
+
+.logo img {
+  padding-top: 10px;
+  width: 80%;
+}
+
+.envelope {
+  float: left;
+  width: 20%;
+  padding-top: 15px;
+}
+
+.email {
+  width: 70%;
+  float: left;
+  padding-top: 15px;
+}
+
+.email p {
+  font-size: 12px;
+  line-height: 100%;
+  color: #959595;
+  
+}
+
+.logo_form_wrapper .logo_form .style_it {
+  color: #4BA3EA;
+  width: 10%;
+  border-radius: 0px;
+  min-height: 45px;
+}
+
+.logo_form_wrapper .logo_form .style {
+  border-radius: 0px;
+  min-height: 45px;
+  background-color: #6DF3F2;
+  color: white;
+}
+
+.logo_form_wrapper .logo_form .formrrr {
+  color: red;
+  border-radius: 0px;
+  min-height: 45px;
+}
+
+.subscribe {
+  padding-top: 15px;
+}
+
+.navigation_bar_wrapper {
+  width: 100%;
+  min-height: 60px;
+  background-color: #FAFAFA;
+}
+
+.navigation_bar {
+  width: 85%;
+  margin: 0 auto;
+  min-height: auto;
+}
+
+.navigation_bar_wrapper .navigation_bar .style_navigation {
+  border: 0px solid;
+  background-color: transparent;
+}
+
+.navigation_bar_wrapper .navigation_bar .style_navigation .style_left_nav {
+  margin-left: -45px;
+}
+
+.active_design {
+  border-bottom: 3px solid #FDB52B;
+  box-sizing: border-box;
+}
+
+.navigation_bar_wrapper .navigation_bar .style_navigation .style_left_nav li a {
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.navigation_bar_wrapper .navigation_bar .style_navigation .style_right_nav li a {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navigation_bar_wrapper .navigation_bar .style_navigation .style_left_nav li a:hover {
+  color: #333333;
+  font-weight: bold;
+  border-bottom: 3px solid #FDB52B;
+}
+
+.item_style {
+  width: 100%;
+  min-height: 1000px;
+  background-image: url("../img/itemstyle2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.item_style1 {
+  width: 100%;
+  min-height: 1000px;
+  background-image: url("../img/itemstyle.jpg");
+  background-size: cover;
+}
+
+.item_style2 {
+  width: 100%;
+  min-height: 1000px;
+  background-image: url("../img/itemstyle1.jpg");
+  background-size: cover;
+}
+
+.slider {
+  margin-top: -21px;
+}
+
+.bottom_bar_wrappper {
+  position: absolute;
+  width: 100%;
+  min-height: 250px;
+  background-color: #4BA3EA;
+  bottom: 0px;
+  opacity: 0.9;
+}
+
+.bottom_bar {
+  width: 85%;
+  margin: 0 auto;
+  min-height: 250px;
+  background-color: #4BA3EA;
+  bottom: 0px;
+}
+
+.finance_image img {
+  width: 90%;
+  margin-top: 50px;
+}
+
+.financial_title {
+  padding-top: 40px;
+}
+
+.financial_title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.financial_title p span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #FDB52B;
+}
+
+.financial_title a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #FDB52B;
+  padding: 13px 25px;
+  border: 0px solid;
+}
+
+.financial_title a:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #FDB52B;
+  background-color: #0A2C4F;
+  text-decoration: none;
+  padding: 13px 25px;
+  border: 0px solid;
+}
+
+.financial_planning {
+  width: 40%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+.financial_planning h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0A2C4F;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.financial_planning p {
+  font-family: 'Roboto', sans-serif;
+  color: #EBEBEA;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.i_already_have_plan {
+  color: white;
+  background-color: #0A2C4F;
+  font-size: 14px;
+  padding: 2.5% 3%;
+}
+
+.i_already_have_plan:hover {
+  color: #0A2C4F;
+  background-color: #FDB62B;
+  font-size: 14px;
+  padding: 2.5% 3%;
+  text-decoration: none;
+}
+
+.get_a_plan {
+  color: white;
+  background-color: #FDB62B;
+  font-size: 14px;
+  padding: 2.5% 3%;
+  margin-left: 20px;
+}
+
+.get_a_plan:hover {
+  color: #FDB62B;
+  background-color: #0A2C4F;
+  font-size: 14px;
+  padding: 2.5% 3%;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.banner_wrapper {
+  width: 100%;
+  min-height: 700px;
+}
+
+.banner {
+  width: 85%;
+  min-height: 700px;
+  margin: 0 auto;
+  background-image: url("https://scontent-sit4-1.xx.fbcdn.net/v/t35.0-12/17015417_764212537068756_904640569_o.jpg?oh=fd0f3ca3e3e142b98630744302257364&oe=58B3965D");
+  background-size: cover;
+}
+
+.banner_left {
+  width: 100%;
+  background-color: #FFFFFF;
+  min-height: 700px;
+}
+
+.who_we_are_top {
+  width: 55px;
+  border-top: 3px solid #FDB52B;
+  border-left: 3px solid #FDB52B;
+  border-right: 3px solid #FDB52B;
+  box-sizing: border-box;
+  min-height: 21px;
+  margin-top: 40px;
+}
+
+.who_we_are_bottom {
+  width: 55px;
+  border-top: 3px solid #FDB52B;
+  box-sizing: border-box;
+  min-height: 25px;
+}
+
+.who_we_are_top1 {
+  width: 45px;
+  margin: 0 auto;
+  border-top: 3px solid #FDB52B;
+  border-left: 3px solid #FDB52B;
+  border-right: 3px solid #FDB52B;
+  box-sizing: border-box;
+  min-height: 15px;
+  margin-top: 40px;
+}
+
+.who_we_are_bottom1 {
+  width: 45px;
+  margin: 0 auto;
+  border-top: 3px solid #FDB52B;
+  box-sizing: border-box;
+  min-height: 25px;
+}
+
+.who_we_are_title h3 {
+  color: #333333;
+  font-weight: bold;
+}
+
+.who_we_are_title p {
+  color: #333;
+  font-family: 'Muli', sans-serif;
+}
+
+.who_we_are_title1 h3 {
+  color: #0A2C4F;
+  text-align: center;
+}
+
+.who_we_are_title1 p {
+  color: #868686;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+
+.icon i {
+  border: 3px solid #FDB52B;
+  box-sizing: border-box;
+  color: #FDB52B;
+  padding: 15px 15px;
+  border-radius: 100px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.icon i:hover {
+  border: 3px solid #FDB52B;
+  box-sizing: border-box;
+  color: white;
+  background-color: #FDB52B;
+  padding: 15px 15px;
+  border-radius: 100px;
+  font-size: 30px;
+}
+
+.icon_short_des h3 {
+  color: #333333;
+  font-family: 'Muli', sans-serif;
+}
+
+.icon_short_des p {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
+
+.banner_right {
+  min-height: 700px;
+}
+
+.our_mission h3 {
+  color: #333333;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.logo_design {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 23px;
+}
+
+.lil_logo {
+  float: left;
+  width: 13%;
+  margin-top: 30px;
+}
+
+.lil_logo i {
+  font-size: 25px;
+  color: #FDB52B;
+}
+
+.logo_title {
+  float: left;
+}
+
+.logo_title p {
+  font-family: 'Muli', sans-serif;
+}
+
+.our_services_wrapper {
+  width: 100%;
+  min-height: 530px;
+}
+
+.our_services {
+  width: 85%;
+  min-height: 530px;
+  margin: 0 auto;
+}
+
+.feature_icon {
+  text-align: center;
+}
+
+.feature_icon i {
+  border-radius: 100px;
+  background-color: #FDB52B;
+  padding: 15px 15px;
+  color: white;
+}
+
+.feature_title h1 {
+  text-align: center;
+  color: #999999;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.feature_title p {
+  text-align: justify;
+  font-size: 16px;
+  color: #828282;
+}
+
+.head_office_wrapper {
+  width: 100%;
+}
+
+.head_office_wrapper {
+  width: 100%;
+  min-height: 200px;
+  background-color: #EEFCFA;
+  position: relative;
+}
+
+.head_office {
+  position: absolute;
+  width: 30%;
+  height: 100px;
+  background-color: #6DF3F2;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.head_office h1 {
+  text-align: center;
+  color: white;
+  font-wirght: bold;
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+}
+
+.head_office p {
+  padding-left: 20px;
+}
+
+.head_office a {
+  padding-left: 5px;
+  color: white;
+}
+
+.head_office a:hover {
+  padding-left: 5px;
+}
+
+.head_office i {
+  color: #FDB52B;
+}
+.some_feature_wrapper{
+  width:100%;
+  min-height:400px;
+  background-color:black;
+}
+.some_feature{
+  width:85%;
+  margin:0 auto;
+  min-height:400px;
+  background-color:black;
+  
+}
+.social_icon ul li{
+  float:left;
+  list-style-type:none;
+  padding:10px;
+}
+.social_icon ul li a{
+    
+  border-radius:100px;
+  padding:10px 10px;
+  color:#FAFAFA;
+  background-color:#404040;
+}
+.feature_image{
+  margin-top:40px;
+}
+.feature_para{
+  margin-top:40px;
+  color:#707070;
+  font-size:16px;
+}
+.social_icon{
+  margin-top:30px;
+}
+.working_hours h1{
+  color:white;
+  font-size:25px;
+  padding-top:20px;
+}
+.logo_form_wrapper .logo_form .style_it {
+  color: #4BA3EA;
+  width: 10%;
+  border-radius: 0px;
+  min-height: 45px;
+}
+.get_plan_btn{
+  margin-top:20px;
+}
+.get_plan_btn a{
+  background-color:#FDB62B;
+  color:white;
+  padding: 3.5% 8%;
+  
+}
+.get_plan_btn a:hover{
+  background-color:#0A2C4F;
+  color:#FDB62B;
+  padding: 3.5% 8%;
+  text-decoration:none;
+}
+
+.footer{
+  width:85%;
+  margin:0 auto;
+}
+  © @FinanaceAdvisor 2016
